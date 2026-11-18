@@ -1,0 +1,71 @@
+# -------------------------
+# 运行环境
+# -------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# 本地运行数据（含课程、题目、提交与 AI 回复，禁止上传）
+# -------------------------
+reports/
+*.log
+*.tmp
+*.bak
+*.orig
+*.sqlite3
+logs/
+
+# -------------------------
+# 凭据与浏览器配置
+# -------------------------
+.env
+.env.*
+*.pem
+*.key
+cookies*.json
+chromium-profile/
+.chrome/
+
+# -------------------------
+# 编辑器与系统文件
+# -------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# -------------------------
+# 私有文档与交接材料（不进入公开仓库）
+# -------------------------
+/DSH完整交接方案.md
+/DSH连续值守任务.md
+/SKILL.md
+/部署测试记录.md
+/docs/development-history.md
+/docs/dsh接入说明.md
+/docs/session-findings.md
+/docs/upstream-README.md
+/docs/接手修复记录-2026-11-15.md
+/docs/目录工作流设计.md
+
+# -------------------------
+# 旧版本地脚本、构建产物与参考资料
+# -------------------------
+/scripts/article.py
+/scripts/auto_chrome.py
+/scripts/brush_all.py
+/scripts/discuss.py
+/scripts/heartbeat.py
+/scripts/homework.py
+/只读测试.cmd
+/dist/
+/references/
